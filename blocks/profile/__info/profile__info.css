@@ -1,0 +1,13 @@
+.profile__info {
+  display: grid;
+  max-width: 336px;
+  grid-template-columns: minmax(294px, 1fr) minmax(10px, 1fr);
+  grid-template-rows: minmax(39px, 1fr) minmax(18px, 1fr);
+  grid-template-areas:
+  "name edit"
+  "profession .";
+  grid-column-gap: 25px;
+  grid-row-gap: 16px;
+  margin-left: 0;
+}
+

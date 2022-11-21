@@ -1,0 +1,17 @@
+.profile__edit {
+  border: 1px solid #fff;
+  background-color: #000;
+  background-image: url(../../../images/pencil.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 24px;
+  width: 24px;
+  grid-area: edit;
+}
+
+.profile__edit:hover {
+  opacity: 0.6;
+  transition: .5s;
+}
+
+

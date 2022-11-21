@@ -1,0 +1,17 @@
+.element__like {
+  max-width: 22px;
+  max-height: 19px;
+  border: none;
+  background-image: url(../../../images/heart.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  background-size: cover;
+  cursor: pointer;
+  }
+
+  .element__like-btn:hover {
+    opacity: .5;
+    transition: .1s ease-in-out;
+  }
+

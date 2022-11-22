@@ -1,19 +1,19 @@
 .header__logo {
-align-self: flex-start;
-margin-bottom: 41px;
-}
-
-@media screen and (max-width: 968px) {
-  .header__logo {
-    margin-left: 44px;
+  align-self: flex-start;
+  margin-bottom: 41px;
   }
-}
 
-@media screen and (max-width: 550px) {
-  .header__logo {
-    margin-left: 27px;
-    margin-bottom: 31px;
-    max-width: 104px;
-    max-height: 24px;
+  @media screen and (max-width: 968px) {
+    .header__logo {
+      margin-left: 44px;
+    }
   }
-}
+
+  @media screen and (max-width: 550px) {
+    .header__logo {
+      margin-left: 27px;
+      margin-bottom: 31px;
+      max-width: 104px;
+      max-height: 24px;
+    }
+  }

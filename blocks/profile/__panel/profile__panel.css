@@ -1,0 +1,7 @@
+.profile__panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+  max-width: 336px;
+}

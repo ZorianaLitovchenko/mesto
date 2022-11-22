@@ -5,3 +5,9 @@
   gap: 18px;
   max-width: 336px;
 }
+
+@media screen and (max-width: 566px) {
+  .header {
+    margin-bottom: 62px;
+  }
+}

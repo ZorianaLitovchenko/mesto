@@ -7,4 +7,8 @@
   object-fit: cover;
 }
 
-
+@media screen and (max-width: 566px) {
+  .header {
+    margin-bottom: 38px;
+  }
+}

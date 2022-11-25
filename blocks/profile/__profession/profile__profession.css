@@ -8,5 +8,7 @@
 @media screen and (max-width: 568px) {
   .profile__profession {
     font-size: 14px;
+    max-width: 282px;
+    text-align: center;
   }
 }

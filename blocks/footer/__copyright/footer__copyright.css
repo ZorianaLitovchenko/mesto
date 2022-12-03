@@ -16,6 +16,7 @@
 
 @media screen and (max-width: 568px) {
   .footer__copyright {
+    padding-top: 15px;
     font-size: 14px;
     margin-left: 20px;
   }

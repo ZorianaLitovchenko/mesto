@@ -14,18 +14,20 @@ openPopUp.addEventListener('click', function(){
   jobInput.value = jobProfileInfo.textContent;
 });
 
-closePopUp.addEventListener('click', function(){
-  popUp.classList.remove('popup_open');
-});
+function popUpClose() {
+  popup.classList.remove('popup_open');
+}
+closePopUp.addEventListener ('click', popUpClose);
 
 function formSubmit (evt) {
   evt.preventDefault();
   nameProfileInfo.textContent = nameInput.value;
   jobProfileInfo.textContent = jobInput.value;
-  popUp.classList.remove('popup_open');
+  popUpClose()
 };
 
 formElement.addEventListener ('submit', formSubmit);
+
 
 
 

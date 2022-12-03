@@ -3,3 +3,9 @@
   align-items: baseline;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 760px) {
+  .profile__name-box {
+    padding-top: 20px;
+  }
+}

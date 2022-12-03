@@ -1,4 +1,6 @@
 .profile__edit {
+  height: 24px;
+  width: 24px;
   background-image: url(../../../images/pencil.svg);
   background-repeat: no-repeat;
   padding: 0;
@@ -6,14 +8,12 @@
   border-style:  solid;
   border-width: 1px;
   background-position: center;
-  height: 24px;
-  width: 24px;
   align-self: center;
   transition: .4s;
   margin-left: 18px;
   background-size: 10px 10px;
   box-sizing: border-box;
-  background-color: transparent;
+  background-color: black;
 }
 
 .profile__edit:hover {
@@ -22,8 +22,8 @@
 
 @media screen and (max-width: 568px) {
   .profile__edit {
-    height: 10px;
-    width: 10px;
+    height: 18px;
+    width: 18px;
     margin-left: 10px;
     background-size: 7,5px 7,5px;
   }

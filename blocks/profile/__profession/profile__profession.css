@@ -1,5 +1,8 @@
 .profile__profession {
   font-family: "Inter", Arial, sans-serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;

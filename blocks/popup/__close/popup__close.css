@@ -1,6 +1,6 @@
 .popup__close {
   cursor: pointer;
-  background-image: url(../../../images/close.jpg);
+  background-image: url(../../../images/close.svg);
   background-color: black;
   top: -40px;
   right: -30px;

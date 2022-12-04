@@ -6,6 +6,6 @@
 
 @media screen and (max-width: 760px) {
   .profile__name-box {
-    transform: translateX(18px);
+    transform: translateX(16px);
   }
 }

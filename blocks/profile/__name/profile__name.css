@@ -24,6 +24,5 @@
   .profile__name {
     text-align: center;
     font-size: 27px;
-    transform: translate(5px, 5px);
   }
 }

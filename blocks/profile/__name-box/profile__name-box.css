@@ -1,6 +1,11 @@
 .profile__name-box {
   display: flex;
-  align-items: baseline;
+
   justify-content: space-between;
 }
 
+@media screen and (max-width: 760px) {
+  .profile__name-box {
+    transform: translateX(18px);
+  }
+}
